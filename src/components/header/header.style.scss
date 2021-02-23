@@ -1,0 +1,19 @@
+.header-list {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    .header-item{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: black;
+
+    }
+    .header-item:hover {
+        color: red;
+        text-decoration: none;
+    }
+    
+}
